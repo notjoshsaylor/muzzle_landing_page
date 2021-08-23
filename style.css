@@ -25,11 +25,9 @@ footer{
 }
 
 aside{
-    background-color: magenta;
-    float: right;
     width: 30%;
     height: 700px;
-    position:absolute;
+    position: absolute;
     top: 10px;
     right: 0;
 }
@@ -43,7 +41,7 @@ h1{
 }
 
  button {
-    margin-top: 10px;
+    margin: 25px;
     height: 55px;
     width: 150px;
     border-radius: 10px; 
@@ -52,10 +50,12 @@ h1{
 h4{
     font-family: sans-serif;
     color: grey;
+    font-size: 15px;
     }
+    
 
  ul {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     list-style: none;
     display:flex;
@@ -125,45 +125,76 @@ span:hover{
 .top{
     font-family: sans-serif;
     color: grey;
-    position: absolute;
-    top: 150px;
-    right: 35%;
-    left: 35%;     
+    position: relative;
+    justify-content: center;   
 }
 
 .links{
+    font-size: 20px;
     position: relative;
     display: block;
-    color:gold;
+    color:rgb(187, 163, 26);
 }
 .links:hover{
     color: goldenrod;
 }
 
 #logo{
-    position:absolute;
+    position:relative;
     top: 10px;
     width: 75px;
     height: auto;
+    margin: 10px;
 }
 
-.top{
-
-}
-
-img{
-    height: auto;
-    width: auto;
-    object-fit: contain;
-}
 #num1{
-    font-size: 25px;
+    font-size: 20px;
     margin: 15px;
     padding:10px
 } 
 #num2{
-    font-size: 25px;
+    font-size: 20px;
     margin: 15px;
     padding:10px
 }  
+.notifications{
+    position: relative;
+    top: 15px;
+    right: 7px;
+} 
+.messa{
+    height: 100px;
+    width: auto;
+   
+}
 
+
+#not1{
+    position: absolute;
+    top: 100px;
+    height: 300px;
+    width: auto;
+    opacity: 0.75;
+   
+   
+}
+#not2{
+   position: absolute;
+   top: 200px;
+   height: 300px;
+   width: auto;
+}
+#not3{
+    position:absolute;
+    top: 300px;
+    height: 300px;
+    width: auto;
+}
+#not4{
+    position: absolute;
+    top: 400px;
+    height: 300px;
+    width: auto;
+    opacity: 0.75;
+}
+   
